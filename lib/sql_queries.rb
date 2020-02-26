@@ -45,5 +45,5 @@ end
 def selects_bear_that_killed_Tim
   "SELECT * 
   FROM bears 
-  WHERE name IS NULL;"
+  WHERE temperament = 'aggressive';"
 end
